@@ -1,4 +1,4 @@
-with open('rosalind_ba3h.txt','r') as f:
+with open('./rosalind_ba3h (1).txt','r') as f:
     k=int(f.readline().strip())
     X = f.readlines()
     dna = [i.rstrip('\n') for i in X]
